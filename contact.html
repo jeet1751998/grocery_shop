@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reservation request</title>
+	<link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/reservation.js"></script>
+</head>
+	
+<body>
+    
+        <nav>
+        
+        <a href="Index.html">Home</a>
+        <a href="Survey.html">Feedback & Survey</a>
+        <a href="Contact.html">Contact</a>
+        
+    </nav>
+<div class="container">
+	<h1>Contact Us</h1>
+	<form action="response.html" method="get"
+    	name="reservation_form" id="reservation_form">
+		
+		<fieldset>
+    		<legend>Contact Information</legend>
+    		<label for="name">Name:</label>
+			<input type="text" name="name" id="name">
+			<span>*</span><br><br>
+        	<label for="email">Email:</label>
+        	<input type="text" name="email" id="email">
+        	<span>*</span><br><br>
+			<label for="phone">Phone:</label>
+			<input type="text" name="phone" id="phone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+			<span>*</span><br><br>
+            <label>Country</label>
+        	<select >
+        		<option>Canada</option>
+        		<option>Inida</option>
+        		<option>US</option>
+        		<option>Asgaurd</option>
+                <option>Austrailia</option>
+        		<option>Bangladesh</option>
+        		<option>NZ</option>
+        		<option>Kania</option>
+                <option>Pakistan</option>
+        		<option>West Indies</option>
+        		<option>Maxico</option>
+        		<option>Gabon</option>
+                <option> Gambia</option>
+                <option>Georgia</option>
+                <option>Germany</option>
+                <option>Ghana</option>
+                <option>Greece</option>
+                <option>Grenada</option>
+                <option>Guatemala</option>
+                <option>Guinea</option>
+                <option>Guinea-Bissau</option>
+                <option>Guyana</option>
+
+                <option>Kazakhstan</option>
+                <option>Kenya</option>
+                <option>Kiribati</option>
+                <option>Korea, North</option>
+                <option>Korea, South</option>
+                <option>Kosovo</option>
+                <option>Kuwait</option>
+                <option>Kyrgyzstan</option>
+
+        	</select><br>
+		</fieldset>
+
+		<input type="submit" id="submit" value="Submit Request"><br>
+
+	</form>
+    </div>
+</body>
+</html>

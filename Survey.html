@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey</title>
+<link href="css/main.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/SurveyStyle.css">
+<script src="js/SurveyJava.js"></script>
+
+</head>
+<body>
+    
+    <nav>
+        
+        <a href="Index.html">Home</a>
+        <a href="Survey.html">Feedback & Survey</a>
+        <a href="Contact.html">Contact</a>
+        
+    </nav>
+<div class="container">
+<h1>Website Survey</h1>
+<form id="quiz" name="quiz">
+	<span>
+	<p>Will you recommend this website to others?</p>
+	
+    <input type="radio" id="mc" name="question1" value="brazzaville">Likely<br>
+    <input type="radio" id="mc" name="question1" value="kinshasa">No<br>
+    <input type="radio" id="mc" name="question1" value="durban">Maybe<br>
+
+	<p>Will you use this website again if needed?</p>
+
+    <input type="radio" id="mc" name="question2" value="Rabat">Likely<br>
+    <input type="radio" id="mc" name="question2" value="Johannesburg">No<br>
+    <input type="radio" id="mc" name="question2" value="pretoria">Maybe<br>
+
+
+
+    <p>What do you think about the ovelall website?</p>
+
+    <input type="radio" id="mc" name="question3" value="bangui">Good<br>
+    <input type="radio" id="mc" name="question3" value="bandundu">Bad<br>
+    <input type="radio" id="mc" name="question3" value="luanda">Satisfactory<br>
+<br>
+    <input id="button" type="button" value="Submit" onclick="check();">
+        <div id="after_submit">
+	<p id="message"></p>
+
+</div>
+
+<button onclick="myFunction()">Reset</button>
+    </div>
+
+</span>
+</form>
+
+
+</body>
+</html>
